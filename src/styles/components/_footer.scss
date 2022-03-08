@@ -1,0 +1,110 @@
+footer{
+    background-color: #ededed;
+    padding: 80px 0 0;
+    .footer__copy{
+        background-color: #fff;
+        text-align: center;
+        margin-top: 30px;
+        padding: 15px 0;
+        h2{
+            text-align: center;
+            padding: 20px 0;
+            color: $black;
+            font-family: $primaryFont;
+        }
+    }
+    .col-lg-4 {
+        img{
+            max-width: 100%;
+            height: auto;
+            width: 70%;
+            padding-bottom: 16px;
+        }
+        p{
+            font-family: $primaryFont;
+            color: $black;
+            font-size: 18px;
+        }
+        h3{
+            color: $primaryColor;
+            font-family: $primaryFont;
+            font-weight: 700;
+            font-size: 18px;
+            padding: 0;
+        }
+    }
+    .col-lg-8{
+        h2{
+            color: $primaryColor;
+            font-family: $primaryFont;
+            font-weight: 700;
+            font-size: 26px;
+            padding: 0;
+            margin: 0;
+        }
+        h3{
+            color: $primaryColor;
+            font-family: $primaryFont;
+            font-weight: 700;
+            font-size: 16px;
+            padding: 0;
+            margin: 0 0 42px;
+        }
+        .footer__blocks{
+            display: flex;
+            justify-content: space-between;
+            padding-right: 70px;
+            margin-bottom: 20px;
+            .footer__block{
+                a,p{
+                    color: $black;
+                    text-decoration: none;
+                    display: block;
+                    font-family: $primaryFont;
+                }
+                p{
+                    font-weight: bold;
+                }
+                a{
+                    &:hover{
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+        form{
+            padding-top: 16px;
+            input{
+                width: 100%;
+                margin-bottom: 8px;
+                background-color: $primaryColor;
+                text-indent: 12px;
+                color: #fff;
+                font-family: $primaryFont;
+                font-weight: 500;
+                padding: 10px 0;
+                border: none;
+            }
+            textarea{
+                width: 100%;
+                background-color: $primaryColor;
+                text-indent: 12px;
+                color: #fff;
+                font-family: $primaryFont;
+                font-weight: 500;
+                padding: 10px 0;
+                border: none;
+            }
+        }
+    }
+}
+@media(max-width:978px){
+    footer{
+        .footer__blocks{
+            flex-direction: column;
+            .footer__block{
+                margin-top: 14px;
+            }
+        }
+    }
+}

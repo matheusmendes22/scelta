@@ -1,0 +1,18 @@
+@media(min-width:978px){
+    .carousel-indicators{
+        right: unset;
+        flex-direction: column;
+        bottom: 150px !important;
+        margin-left: 7% !important;
+        button{
+            height: 15px !important;
+            width: 15px !important;
+            background-color: #fff !important;
+            opacity: 1 !important;
+            transform: rotate(45deg);
+        }
+        .active{
+            background-color: $primaryColor !important;
+        }
+    }
+}

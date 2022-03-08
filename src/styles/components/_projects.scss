@@ -1,0 +1,14 @@
+.projects__container{
+    background-color: $primaryColor;
+    padding: 100px 0;
+}
+.project__info{
+    h2{
+        color: #fff;
+        font-family: $primaryFont;
+        font-weight: 900;
+        text-align: center;
+        margin: 0 0 50px;
+        font-size: 36px;
+    }
+}

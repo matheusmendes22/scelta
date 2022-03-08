@@ -1,0 +1,41 @@
+.contact__container{
+    padding: 80px 0;
+    .contact__heading{
+        font-family: $primaryFont;
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .contact__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input,textarea{
+            width: 100%;
+            border: 1px solid $primaryColor;
+            border-radius: 20px;
+            margin-bottom: 15px;
+            padding: 5px;
+            font-size: 18px;
+            text-indent: 10px;
+            font-family: $primaryFont;
+            &:focus{
+                outline: 1px solid $primaryColor;
+            }
+            &::placeholder{
+                font-family: $primaryFont;
+            }
+        }
+        button{
+            background-color: $primaryColor;
+            font-family: $primaryFont;
+            padding: 8px 30px;
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            margin-top: 8px;
+            border: none;
+        }
+    }
+}
